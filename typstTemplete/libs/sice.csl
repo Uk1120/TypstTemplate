@@ -46,7 +46,7 @@
       </if>
       <else>
         <names variable="author">
-          <name initialize-with=". " delimiter=", " and="text"/>
+          <name initialize-with=". " delimiter=", "/>
           <label form="short" prefix=", "/>
           <substitute>
             <names variable="editor"/>
