@@ -37,7 +37,7 @@
     <choose>
       <if match="any" variable="language">
         <names variable="author">
-          <name form="short" delimiter=", "/>
+          <name initialize-with=". " delimiter=", "/>
           <label form="short" prefix=", "/>
           <substitute>
             <names variable="editor"/>
